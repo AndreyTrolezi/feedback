@@ -83,7 +83,7 @@ export const ButtonContainer = styled.div`
         transition: all .4s;
 
         &:focus {
-            ${props => props.theme.white}
+            color: ${props => props.theme.white};
             background: ${props => props.theme.feedbackButtonText};
         }
 
